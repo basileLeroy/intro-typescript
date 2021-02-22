@@ -9,7 +9,10 @@
 
         const userGuess = userNumber.valueAsNumber;
 
-        // Other method: const userNumber = Number(document.querySelector('#guess').value);
+        // Other method: 
+        
+        //const userNumber = Number(document.querySelector('#guess').value);
+        //const userNumber: HTMLInputElement = document.querySelector('#guess');
 
         if (secretNumber == userGuess) {
             alert("Awesome! You number " + userGuess + " was correct. You can be named many things, hungry not being one of them.");
