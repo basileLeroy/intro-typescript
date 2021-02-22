@@ -1,3 +1,5 @@
+// @ts-check
+
 (function() {
     document.getElementById('guess-form')!.addEventListener("submit", compareUserGuess);
 

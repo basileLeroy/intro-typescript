@@ -1,4 +1,5 @@
 "use strict";
+// @ts-check
 (function () {
     document.getElementById('guess-form').addEventListener("submit", compareUserGuess);
     function compareUserGuess(event) {
